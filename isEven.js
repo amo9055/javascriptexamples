@@ -5,7 +5,7 @@ function isEven(n) {
     return false;
   else
     return isEven(n - 2);
-
+}
 console.log(isEven(50));
 // → true
 console.log(isEven(75));
